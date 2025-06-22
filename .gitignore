@@ -11,6 +11,11 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# Build output folders
+dist/
+build/
+.netlify/
+
 # Output CSS files
 src/output.css
 
@@ -32,10 +37,6 @@ ehthumbs.db
 
 # VSCode settings folder
 .vscode/
-
-# Build output
-dist/
-build/
 
 # Misc
 *.swp
