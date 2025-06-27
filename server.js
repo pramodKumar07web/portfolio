@@ -19,7 +19,7 @@ app.get('*', (req, res) => {
 
 
 // Email Sending Endpoint
-app.post("https://shimmering-heliotrope-03302f.netlify.app/#contact/api/send-email", async (req, res) => {
+app.post("https://shimmering-heliotrope-03302f.netlify.app/api/send-email", async (req, res) => {
   const { name, email, message } = req.body;
 
   if (!name || !email || !message) {
