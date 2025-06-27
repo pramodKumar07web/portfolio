@@ -943,7 +943,7 @@ submitBtn.textContent = "Sending...";
       const message = document.querySelector("#message").value;
   
       try {
-        const response = await fetch("/api/send-email", {
+        const response = await fetch("https://shimmering-heliotrope-03302f.netlify.app/api/send-email", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
